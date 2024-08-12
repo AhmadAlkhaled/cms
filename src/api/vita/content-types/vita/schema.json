@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vitas",
+  "info": {
+    "singularName": "vita",
+    "pluralName": "vitas",
+    "displayName": "Vita",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bild_Desktop": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "bild_Mobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
